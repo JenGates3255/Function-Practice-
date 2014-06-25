@@ -24,13 +24,46 @@
 // 	return numbers;
 // }
 // toArray(2)
-//*********************************
-var startsWithA = function(word){
-	return word.charAt(0) === 'a'
-}
-startsWithA("apple")
+// *********************************
+// var startsWithA = function(word){
+// 	return word.charAt(0) === 'a';
+// }
+// startsWithA("apple")
 
-var excite = function(fun){
-	return fun+"!!!";
+// var excite = function(fun){
+// 	return fun+"!!!";
+// }
+// excite("go")
+
+// var sun = function(word){
+// 	return word 
+// }
+// sun ("")
+
+
+// var tiny =function(x){
+// 	return x >= 0 && x <= 1 
+// }
+// tiny (".5")
+
+
+// pseudo code
+var getSeconds = function(time) {
+  // get the minutes
+  var minutes = time.substring(0,2)
+
+  // calculate seconds
+  var totalSeconds = 60 * minutes; 
+
+  // get the seconds
+  var seconds = time.substring(3);
+
+  
+  // add all together
+  console.log(totalSeconds + (seconds)
+  // return result
 }
-excite("go")
+
+getSeconds('10:00');
+
+
